@@ -13,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.foldsters.hoverexample"
     },
     "android": {
       "adaptiveIcon": {
@@ -32,6 +33,12 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "937342b8-cae5-4f71-84e1-2a620d489ea3"
+      }
+    },
+    "owner": "foldster"
   }
 }
