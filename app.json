@@ -14,7 +14,11 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.foldsters.hoverexample"
+      "bundleIdentifier": "com.foldsters.hoverexample",
+      "buildNumber": "2",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -29,7 +33,8 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true

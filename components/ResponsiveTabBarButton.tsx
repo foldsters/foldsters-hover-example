@@ -12,7 +12,7 @@ export const ResponsiveTabBarButton = (props: any) => {
   }).onEnd(() => setIsHovered(false));
   return (
     <GestureDetector gesture={hover}>
-      <Pressable {...props} style={{opacity: isHovered ? 1.0 : 0.8, flex: 1}} />
+      <Pressable {...props} style={{opacity: isHovered ? 1.0 : 0.5, flex: 1}} />
     </GestureDetector>
   );
 }
